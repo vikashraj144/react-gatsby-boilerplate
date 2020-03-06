@@ -8,9 +8,9 @@ const CompanyPage = () => {
 
   return (
     <div>
+      <Header />
       company
       <Footer />
-      <Header />
     </div>
   ) 
 }

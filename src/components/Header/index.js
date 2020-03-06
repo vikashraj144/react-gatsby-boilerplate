@@ -1,5 +1,5 @@
 import React, { useEffect }from "react"
-
+import './Header.css'
 /**
  * Footer Component
  * @constant
@@ -9,7 +9,7 @@ import React, { useEffect }from "react"
 const Header = () => {
 
     return (
-        <div>
+        <div className="header">
             Header
         </div>
     )

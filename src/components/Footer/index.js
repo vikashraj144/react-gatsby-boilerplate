@@ -1,4 +1,5 @@
 import React, { useEffect }from "react"
+import "./Footer.css";
 
 /**
  * Footer Component
@@ -9,7 +10,7 @@ import React, { useEffect }from "react"
 const Footer = () => {
 
     return (
-        <div>
+        <div className="footer">
             Footer
         </div>
     )
